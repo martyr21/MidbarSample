@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import MidbarSample
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Midbar.sayHello(with: "김재형")
     }
 
     override func didReceiveMemoryWarning() {

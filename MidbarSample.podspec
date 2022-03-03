@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MidbarSample'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MidbarSample.'
+  s.summary          = 'Swift 라이브러리 만들기 테스트입니다.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Swift 라이브러리 만들기를 위한 테스트 프레임워크입니다.
                        DESC
 
-  s.homepage         = 'https://github.com/Kim, Jae-Hyung/MidbarSample'
+  s.homepage         = 'https://github.com/martyr21/MidbarSample'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Kim, Jae-Hyung' => 'martus@fsn.co.kr' }
-  s.source           = { :git => 'https://github.com/Kim, Jae-Hyung/MidbarSample.git', :tag => s.version.to_s }
+  s.author           = { 'Kim, Jae-Hyung' => 'martyr21@gmail.com' }
+  s.source           = { :git => 'https://github.com/martyr21/MidbarSample.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'MidbarSample/Classes/**/*'
+  
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'MidbarSample' => ['MidbarSample/Assets/*.png']
